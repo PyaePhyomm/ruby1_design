@@ -1,0 +1,104 @@
+
+body .bg-image{
+    background-image: url('img/hotel.jpg');
+    height:700px;
+    /* background-color: red; */
+    background-size:100% 100%;
+    /* opacity:0.7; */
+}
+.bg-image h1{
+    text-align:center;
+    padding-top:250px;
+    color:white;
+}
+/* .nav-img{
+    width:100%;
+    opacity:0.7;
+} */
+.bg-image .searchRoom{
+    padding-top:100px;
+    margin-left:400px;
+}
+.searchRoom input, .searchRoom .dropdown{
+    padding:10px;
+    margin:20px ;
+    background-color:white;
+    border-radius: 10px;
+}
+.nav-link, .navbar-brand{
+    color:white;
+}
+h4{
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+.roomInfo{
+    position:absolute;
+    left:20%;
+    top:200px;
+    background-color: rgb(63, 62, 62);
+}
+.roomRow{
+    position:relative;
+}
+.rowInfo h2,p, span{
+    color:white;
+}
+.roomDetail i{
+    margin:10px;
+    
+}
+.roomDetail{
+    text-align: center;
+    padding:10px;
+}
+.bi,.fa, .bi-star-fill{
+    color:goldenrod;
+    margin:0px 10px;
+
+}
+.intro{
+    padding:100px;
+}
+.hotelName{
+    letter-spacing: 10px;
+}
+.bi-telephone-forward-fill{
+    font-size: 3rem;
+}
+.phno, .navbar-brand{
+    color:goldenrod;
+}
+.img1{
+    padding-top:200px;
+}
+ul li a{
+    color:white;
+    text-decoration:none;
+
+}
+.carousel-item img{
+    height:500px;
+}
+.personNo, .roomNo{
+    border:1px solid white;
+    border-radius:10px;
+    /* padding:10px; */
+}
+.cardInfo i{
+    padding:10px;
+}
+.cards{
+    border-right:2px solid white;
+}
+.row{
+    margin-bottom:20px;
+}
+button{
+    border-radius:10px;
+    background-color: rgb(112, 224, 255);
+}
+.titleBar{
+    border-left:10px solid goldenrod;
+    
+}

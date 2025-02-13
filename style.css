@@ -5,6 +5,10 @@ body .bg-image{
     /* background-color: red; */
     background-size:100% 100%;
     /* opacity:0.7; */
+    
+}
+body{
+    color:white;
 }
 .bg-image h1{
     text-align:center;
@@ -76,6 +80,10 @@ ul li a{
     color:white;
     text-decoration:none;
 
+
+}
+ul li{
+    list-style-type: none;
 }
 .carousel-item img{
     height:500px;
@@ -101,4 +109,19 @@ button{
 .titleBar{
     border-left:10px solid goldenrod;
     
+}
+.bookingForm{
+    width:80%;
+    margin:10px;
+    padding:10px;
+}
+.btnSubmit{
+    color:white;
+}
+input, select, textarea{
+    border-radius:10px;
+}
+ul li a:hover{
+    border-bottom:1px whitesmoke solid;
+    color:red;
 }
